@@ -1,1 +1,10 @@
-/*dinh dang*/
+body{
+	line-height:1.6;
+	max-width: 800px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid;
+}
+.container {
+	display: flex;
+	
