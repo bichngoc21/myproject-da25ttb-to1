@@ -29,17 +29,40 @@ table#bang2{
 	width: 100%;
 	max-width: 500px;
 	margin: 15px;
+    overflow: hidden;
 }
-table#bang2, table#bang2 td, table#bang2 tr, table#bang2 th{
+table#bang2, table#bang2 td:hover, table#bang2 tr, table#bang2 th{
 	border: 1px solid #f2a6a6;
 	border-radius: 7px;
+	
+}
+table#bang2 td:hover{
+	background-color: greenyellow;
+    color: white;
 }
 
 ul{
 	margin: 15px 15px;
-	border: 1px solid #f2a6a6;
+	/*border: 1px solid #f2a6a6;*/
 	border-radius: 7px;
 	list-style-position: inside;	
 	max-width: 500px;
 }
-	
+ul li{
+	padding: 10px;
+	border-bottom: 2px solid greenyellow;
+}
+li:hover{
+	background-color: #f2a6a6;
+    color: white;
+}
+ol{
+	margin: 15px 15px;
+	border-radius: 7px;
+	list-style-position: inside;	
+	max-width: 500px;
+}
+ol li{
+	padding: 10px;
+	border-bottom: 2px solid greenyellow;
+}
