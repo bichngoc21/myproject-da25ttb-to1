@@ -3,25 +3,32 @@
 	<head>
 		<title>Thông tin cá nhân</title>
 		<meta charset ="utf-8">
+		<link rel ="stylesheet" href ="../css/style.css">
 
 	</head>
 	<body>
-		<h1> Dương Thị Bích Ngọc </h1>
+	 <div class ="container">
+		<p id = "hoten" > Dương Thị Bích Ngọc </p>
 		<h2> Trang thông tin cá nhân </h1>
-		<table border= 2px>
-			<tr>
-			
-			<td> 
-				<img src ="../assets/images/avt.jpg" alt="ảnh đại diện" style = "width:120px;height:150px"
-			</td>
+		<table id ="bang1" border="2px">
+			<p class="tieude"> Giới thiệu bản thân </p>
+		<tr>
 			<td>
-					<h3> Giới thiệu bản thân </h3>
-					<p> Xin chào!, tôi là <b>Dương Thị Bích Ngọc</b>, sinh viên ngành <b>Công nghệ thông tin</b>. Mục tiêu của tôi sau này là trở thành <u>lập trình viên</u>. Tôi đang học tại <b> Đại học Trà Vinh</b>.Tôi muốn cố gắng học tập và phát triển kỹ năng mỗi ngày</p>	
+				<img src="../assets/images/anhdaidien.jpg" alt="ảnh đại diện" style="width:120px;height:200px" style="border-radius: 15px;">
+        </td>
+			<td>
+				<p id="mota">
+					Xin chào! tôi là <b>Dương Thị Bích Ngọc</b>, sinh viên ngành <b>Công nghệ thông tin</b>. 
+					Tôi đang học tại <a href="https://www.tvu.edu.vn" target="_blank">Đại học Trà Vinh</a>. 
+					Tôi muốn cố gắng học tập và phát triển kỹ năng mỗi ngày. 
+					Mục tiêu của tôi sau này là trở thành <u>lập trình viên</u>.
+				</p>
 			</td>
+		</tr>
 		</table>
 		
-		<h4> Thông tin chi tiết</h4>
-		<table border= 2px>
+		<p class ="tieude"> Thông tin chi tiết</h4>
+		<table border= 2px id = "bang2">
 			<tr>
 				<th> Thông tin </th>
 				<th> Nội dung </th>
@@ -44,13 +51,13 @@
 			</tr>
 		</table>
 		
-		<h4>Sở thích</h4>
+		<p class="tieude">Sở thích</p>
 		<ul>
 			<li>Nghe nhạc</li>
 			<li>Xem phim</li>
 			<li>Ăn uống</li>
 		</ul>
-		<h4>Kỹ năng và mục tiêu</h4>
+		<p class="tieude">Kỹ năng và mục tiêu</p>
 		<ol>
 			<li>Biết HTML cơ bản</li>
 			<li>Đang học CSS và JavaSript</li>
@@ -59,5 +66,6 @@
 		<h4> Liên hệ </h4>
 		<p> Facebook:<a href="https://www.facebook.com/share/195iXDVTfU/" target="blank">Trang facebook của tôi </a></p> 
         <p> Email: <a href="mailto:diachi@email.com">Email của tôi</a></p>
+	 </div>
 	</body>
 </html>
