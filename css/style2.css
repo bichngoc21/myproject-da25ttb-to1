@@ -2,14 +2,24 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Georgia;
-	font-size: 10pt;
-	line-height: 1.5;
+	font-size: 11pt;
+	line-height: 1.6;
 }
+body{
+	background-color: #e2e8f0; 
+    display: flex;
+	justify-content: center;   
+    align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+}
+
 #tieude{
 	font-weight: bolder;
-	font-size: 15pt;
+	font-size: 20pt;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 25px;
 
 }
 label{
@@ -20,21 +30,31 @@ form{
 	width: 100%;
 	background-color: #ffccb3;
 	max-width: 500px;
-	padding: 30px 25px;
+	padding: 30px 30px;
 	margin: auto;
-	border-radius: 8px;
+	border-radius: 18px;
 	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	margin-bottom: 18px;
 }
 .form-control{
-	width: 99%;
+	width: 100%;
 	margin: 8px 0px;
+	border: 1px solid #580318;
+	border-radius: 8px;
+	background-color: #e2e7ec;
+}
+.form-control:focus {
+   /* Đổi màu viền khi click vào */
+    background-color: #ffffff;
+  
 }
 .button{
-	background-color: #b399ff;
-	padding:2px;
+	background-color: #aea1cf;
+	padding:12px;
 	width: 100px;
 	padding: 8px 16px;       
 	border-radius: 6px;
+	
 }
 .gender-group{
     display: flex;   
@@ -44,17 +64,12 @@ form{
 .hobbies-group{
 	display: flex;   
     align-items: center; 
-    gap: 10px;       
-	
+    gap: 10px;    
 }
-body{
-	font-family: Georgia;
-	background-color: #9cbef0; 
-    display: flex;
-	justify-content: center;   
-    align-items: center;
-	min-height: 100vh;
+textarea.form-control {
+    resize: vertical; /* Chỉ cho phép kéo dãn theo chiều dọc */
 }
+
 
 
 	
