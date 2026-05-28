@@ -10,23 +10,68 @@
 		<div class ="container">
 			<form id = "frmLogin" action = "xac-thuc.html" method = "get">
 			<p id = "tieude"> &#127799 Đăng ký thành viên &#127799</p>
+			
 			<div class = "form-group">
 				<label for = "txtUsername">Full name: </label>
 				<input class = "form-control" type = "text" name = "txtUsername" id = "txtUsername">
 			</div>
 			
-			<div class = "form-group">
-				<label for = "txtId">ID: </label>
-				<input class = "form-control" type = "Id" name = "txtId" id = "txtId">
+			<div class="form-group">
+				<label for="txtID">ID: </label>
+				<input class="form-control" type="text" name="txtID" id="txtID">
 			</div>
-			
-			<div class = "form-group">
-				<label for = "txtClass">Class: </label>
-				<input class = "form-control" type = "Class" name = "txtClass" id = "txtClass">
+
+			<div class="form-group">
+				<label for="txtClass">Class: </label>
+				<input class="form-control" type="text" name="txtClass" id="txtClass">
 			</div>
-			
-			
-			
+
+			<div class="form-group">
+				<label for="txtDOB">Date of birth: </label>
+				<input class="form-control" type="date" name="txtDOB" id="txtDOB">
+			</div>
+
+			<div class="gender-group">
+				<label>Gender: </label>
+				<input type="radio" name="gender" id="Nam" value="Nam" checked>
+				<label for="Nam">Male</label>
+            
+				<input type="radio" name="gender" id="female" value="Female">
+				<label for="female">Female</label>
+			</div>
+
+			<div class="hobbies-group">
+				<label>Hobbies: </label>
+				<input type="checkbox" name="hobbies" id="hobby1" value="Sports">
+				<label for="hobby1">Sports</label>
+            
+				<input type="checkbox" name="hobbies" id="hobby2" value="Music">
+				<label for="hobby2">Music</label>
+				
+				<input type="checkbox" name="hobbies" id="hobby3" value="Games">
+				<label for="hobby3">Games</label>
+				
+				<input type="checkbox" name="hobbies" id="hobbyOther" value="Other">
+				<label for="hobbyOther">Other:</label>
+            
+				<input class="form-control-short" type="text" name="txtHobbyOther" id="txtHobbyOther" placeholder="Your other hobby...">				
+			</div>
+
+			<div class="form-group">
+				<label for="txtEmail">Email: </label>
+				<input class="form-control" type="email" name="txtEmail" id="txtEmail">
+			</div>
+
+			<div class="form-group">
+				<label for="txtAddress">Address: </label>
+				<input class="form-control" type="text" name="txtAddress" id="txtAddress">
+			</div>
+
+			<div class="form-group">
+				<label for="txtIntroduction">Introduction: </label>
+				<textarea class="form-control" name="txtIntroduction" id="txtIntroduction" rows="3"></textarea>
+			</div>
+
 			<input class = "button" type = "submit" name = "sbLogin" value = "Login">
 			<input class = "button"type = "reset" name = "rsCancel" value = "Cancel">
 			

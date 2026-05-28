@@ -18,8 +18,8 @@ label{
 }
 form{
 	width: 100%;
-	background-color: #ffcccc;
-	max-width: 500px;
+	background-color: #ffccb3;
+	max-width: 700px;
 	padding: 10px;
 	margin: auto;
 }
@@ -32,6 +32,21 @@ form{
 	padding:2px;
 	width: 100px;
 }
+.gender-group{
+    display: flex;   
+    align-items: center; 
+    gap: 10px;          
+}
+.hobbies-group{
+	display: flex;   
+    align-items: center; 
+    gap: 10px;       
+	
+}
+body{
+	font-family: Georgia;
+}
+
 
 	
 
