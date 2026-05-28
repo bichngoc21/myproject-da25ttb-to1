@@ -19,18 +19,22 @@ label{
 form{
 	width: 100%;
 	background-color: #ffccb3;
-	max-width: 700px;
-	padding: 10px;
+	max-width: 500px;
+	padding: 30px 25px;
 	margin: auto;
+	border-radius: 8px;
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .form-control{
 	width: 99%;
-	margin: 5px 0px;
+	margin: 8px 0px;
 }
 .button{
 	background-color: #b399ff;
 	padding:2px;
 	width: 100px;
+	padding: 8px 16px;       
+	border-radius: 6px;
 }
 .gender-group{
     display: flex;   
@@ -45,6 +49,11 @@ form{
 }
 body{
 	font-family: Georgia;
+	background-color: #9cbef0; 
+    display: flex;
+	justify-content: center;   
+    align-items: center;
+	min-height: 100vh;
 }
 
 
