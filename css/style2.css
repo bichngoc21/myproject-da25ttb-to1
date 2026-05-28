@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia;
+	font-size: 10pt;
+	line-height: 1.5;
+}
+#tieude{
+	font-weight: bolder;
+	font-size: 15pt;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+label{
+	display: block;
+	font-weight: bolder;
+}
+form{
+	width: 100%;
+	background-color: #ffcccc;
+	max-width: 500px;
+	padding: 10px;
+	margin: auto;
+}
+.form-control{
+	width: 99%;
+	margin: 5px 0px;
+}
+.button{
+	background-color: #b399ff;
+	padding:2px;
+	width: 100px;
+}
+
+	
+
+
+	
