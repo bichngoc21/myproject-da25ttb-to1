@@ -6,12 +6,13 @@
 	line-height: 1.6;
 }
 body{
-	background-color: #e2e8f0; 
+	/*background-color: #e2e8f0; */
     display: flex;
 	justify-content: center;   
     align-items: center;
 	min-height: 100vh;
 	padding: 20px;
+	background: linear-gradient(135deg, #b8c6ec 0%, #e8c6e2 50%, #f7d5df 100%);
 }
 
 #tieude{
