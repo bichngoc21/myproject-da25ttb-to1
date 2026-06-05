@@ -1,7 +1,53 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    font-size: 15pt;
-    line-height: 2;
-
+	margin:0px;
+	padding:0px;
+	font-size:15pt;
+	line-height:2;
 }
+
+body {
+    background-color: #fcbbf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+thead th {
+    background-color: #9fc0ca;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
