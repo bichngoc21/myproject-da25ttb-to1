@@ -10,3 +10,4 @@ function printBCC(num)
     }
     document.getElementById("result"). innerHTML = result;
 }
+
